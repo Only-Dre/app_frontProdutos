@@ -1,0 +1,80 @@
+/* Home.css */
+
+.home-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #1E1E1E; 
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+  color: #E0E0E0;
+  text-align: center;
+}
+
+.home-title {
+  color: #E0E0E0;
+  font-size: 2.8em;
+  margin-bottom: 5px;
+}
+
+.home-subtitle {
+  color: #AAAAAA;
+  margin-bottom: 30px;
+}
+
+.main-content h2 {
+    color: #00C853;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.action-card { /* Classe principal do cartão */
+  flex: 1;
+  background-color: #282828; 
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7), 0 0 10px #00C853; /* Adiciona brilho sutil */
+}
+
+.action-card h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #00C853;
+  margin-bottom: 15px;
+}
+
+.action-card p {
+  color: #AAAAAA;
+  margin-bottom: 25px;
+  min-height: 40px; 
+}
+
+/* Botão de Ação */
+.btn-go { 
+  background-color: #00C853;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-go:hover {
+  background-color: #00A343;
+}

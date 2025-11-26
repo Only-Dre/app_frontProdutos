@@ -1,0 +1,32 @@
+body {
+  /* Fundo principal escuro */
+  background-color: #121212; 
+  /* Fonte limpa e moderna */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #E0E0E0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Estilo para Botões Padrão (Verde de Ação) */
+button {
+  background-color: #00C853; /* Verde vibrante */
+  color: #121212; /* Texto escuro para contraste */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.1s ease; /* Transições suaves */
+}
+
+button:hover {
+  background-color: #00A343; /* Verde um pouco mais escuro no hover */
+  transform: translateY(-1px); /* Pequeno efeito de elevação */
+}
